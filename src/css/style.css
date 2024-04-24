@@ -1,0 +1,25 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(212, 210, 210);
+    color: red;
+    cursor: url('../img/free-icon-hammer-6306991.png'), default;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+                               
+.active {
+    background-image: url(../img/goblin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
