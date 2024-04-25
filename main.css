@@ -1,0 +1,32 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(212, 210, 210);
+    color: red;
+    cursor: url(25e13d599268c6e69f46.png), default;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+                               
+.active {
+    background-image: url(2dbd01ce16c0fa83cb67.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.board-el {
+    margin-right: 5%;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(236, 190, 190);
+    border-radius: 20px;
+}
